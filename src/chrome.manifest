@@ -1,0 +1,5 @@
+content	ffthrottle		jar:chrome/ffthrottle.jar!/content/
+overlay	chrome://browser/content/browser.xul	chrome://ffthrottle/content/ffthrottleOverlay.xul
+skin	ffthrottle	classic/1.0	jar:chrome/ffthrottle.jar!/skin/
+locale	ffthrottle	en-US	jar:chrome/ffthrottle.jar!/locale/en-US/
+locale	ffthrottle	ru-RU	jar:chrome/ffthrottle.jar!/locale/ru-RU/

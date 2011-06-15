@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$pCGBd"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="1.5"
+                   em:maxVersion="5.*" />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="{ca8b7b3d-b6e6-438f-b935-601b3de48d66}"
+                   em:name="Firefox Throttle"
+                   em:version="1.1"
+                   em:creator="UselessApplications.com"
+                   em:description="Bandwidth utilization throttling plugin for Firefox (Windows)."
+                   em:homepageURL="http://www.uselessapplications.com/Application/FirefoxThrottle.aspx"
+                   em:iconURL="chrome://ffthrottle/skin/foxthrottle32.png"
+                   em:optionsURL="chrome://ffthrottle/content/pref-ffthrottle.xul"
+                   em:aboutURL="chrome://ffthrottle/content/about.xul">
+    <em:targetApplication RDF:resource="rdf:#$pCGBd"/>
+  </RDF:Description>
+</RDF:RDF>
